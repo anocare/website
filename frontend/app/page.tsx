@@ -378,7 +378,7 @@ export default function HeroBanner() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
-  const goToSlide = (index) => {
+  const goToSlide = (index:any) => {
     setCurrentSlide(index);
   };
 
